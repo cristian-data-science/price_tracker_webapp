@@ -9,6 +9,9 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import time
+from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie_spinner
+
 
 #---------------------------------#
 # New feature (make sure to upgrade your streamlit library)
@@ -21,9 +24,9 @@ import time
 #---------------------------------#
 # Title
 
-image = Image.open('./images/ptgblue.png')
+#image = Image.open('./images/ptgblue.png')
 
-st.image(image, width = 650)
+#st.image(image, width = 650)
 
 st.title('Rastreador de tarjetas de video en Chile')
 st.markdown("""

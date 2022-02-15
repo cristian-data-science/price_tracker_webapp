@@ -60,7 +60,7 @@ st.title('Price & Stock Tracker')
 
 #st.image(image, width = 650)
 
-st.title('Rastreador de tarjetas de video en Chile')
+#st.title('Rastreador de tarjetas de video en Chile')
 st.markdown("""
 Esta app recupera el precio y stock de las tarjetas de video de los ecommerce pcfactory y spdigital. Pronto agregaremos más vendedores!
 """)

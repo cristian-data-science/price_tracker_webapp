@@ -127,7 +127,7 @@ else:
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 
 
-col2.dataframe(data=display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=409)
+col2.dataframe(data=display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=472)
 #col2.dataframe(data=df, width=2800, height=600)
 
 

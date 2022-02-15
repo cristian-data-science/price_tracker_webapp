@@ -6,3 +6,4 @@ pytz
 pyxlsb 
 xlsxwriter
 streamlit-lottie
+streamlit-aggrid

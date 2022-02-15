@@ -30,6 +30,8 @@ lottie_hello = load_lottieurl(lottie_url_hello)
 lottie_download = load_lottieurl(lottie_url_download)
 
 
+#header_container = st.container()
+#with header_container:
 
 st_lottie(lottie_hello, key="hello",height=400, width=400)
 st.title('Price & Stock Tracker')
@@ -89,7 +91,7 @@ selected_coin = col1.multiselect("Tarjetas", sorted_coin, sorted_coin)
 
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
-df = df.sort_values("stock", ascending=True, ignore_index=True)
+df = df.sort_values("stock", ascending=False, ignore_index=True)
 
 #df = df.set_index('nombre')
 #df.index.name="modelo de tarjeta"
@@ -97,11 +99,36 @@ df = df.sort_values("stock", ascending=True, ignore_index=True)
 
 
 #pd.set_option('display.max_colwidth', -1)
-col2.subheader("Precios de tarjetas gráficas")
+
+#col2.subheader("Precios de tarjetas gráficas")
 
 #col2.dataframe(df)
 #col2.dataframe(df)
-col2.dataframe(data=df, width=2800, height=600)
+
+
+
+
+
+
+model_list = ['All'] + df['modelo'].unique().tolist()
+#model_list = sorted(model_list)
+
+
+
+selectmodel = col2.selectbox('Selecciona un modelo:',model_list, key='modelo')
+# display the collected input
+# st.write('Tu selección actual: ' + str(selectmodel))
+
+if selectmodel != 'All':
+	display_data2 = df[df['modelo'] == selectmodel]
+else:
+	display_data2 = df.copy()
+
+#col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
+
+
+col2.dataframe(data=display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=409)
+#col2.dataframe(data=df, width=2800, height=600)
 
 
 
@@ -144,7 +171,7 @@ col2.download_button(label='📥 Descargar a Excel',
                                 file_name= 'data_video_cards.xlsx')
 
 
-col3.subheader("Top Gráficas")
+col3.subheader("Top por stock")
 
 df2 = df2.drop(['Unnamed: 0'], axis=1)
 col3.dataframe(data=df2, width=2800, height=600)

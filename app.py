@@ -14,7 +14,7 @@ from streamlit_lottie import st_lottie_spinner
 
 st.set_page_config(page_title="Prophet",layout="wide")
 
-
+counter = 1
 
 def load_lottieurl(url: str):
     r = requests.get(url)

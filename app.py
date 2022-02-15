@@ -12,7 +12,7 @@ import time
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Prophet",layout="wide")
 
 
 
@@ -28,12 +28,20 @@ lottie_url_hello = "https://assets7.lottiefiles.com/packages/lf20_49rdyysj.json"
 lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
 lottie_hello = load_lottieurl(lottie_url_hello)
 lottie_download = load_lottieurl(lottie_url_download)
+lot2 ="https://assets8.lottiefiles.com/private_files/lf30_y7i4hgco.json"
+
+lottie_url_h = "https://assets7.lottiefiles.com/private_files/lf30_hk1qooeo.json"
+lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
+lot2= load_lottieurl(lottie_url_h)
+lottie_download = load_lottieurl(lottie_url_download)
 
 
 #header_container = st.container()
 #with header_container:
 
-st_lottie(lottie_hello, key="hello",height=400, width=400)
+
+
+#st_lottie(lottie_hello, key="hello",height=400, width=400)
 st.title('Price & Stock Tracker')
 
 
@@ -72,7 +80,11 @@ expander_bar.markdown("""
 # Page layout (continued)
 ## Divide page to 3 columns (col1 = sidebar, col2 and col3 = page contents)
 col1 = st.sidebar
+
 col2, col3 = st.columns((2,1))
+
+with st.sidebar:
+    st_lottie(lot2, key="lol")#,height=400, width=400)
 
 col1.header('Ingresa una opción')
 
@@ -84,14 +96,20 @@ df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
 df2['stock'] = df2['stock'].astype(int)
 
 
-sorted_coin = sorted(df2["modelo"])
-selected_coin = col1.multiselect("Tarjetas", sorted_coin, sorted_coin)
+
 
 #df_selected_coin = df2["modelo"]
 
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
 df = df.sort_values("stock", ascending=False, ignore_index=True)
+
+
+sorted_coin = sorted(df["tienda"].unique())
+selected_coin = col1.multiselect("Tiendas", sorted_coin, sorted_coin)
+
+modelselected = sorted(df2["modelo"])
+multimodeselected = col1.multiselect("Tarjetas", modelselected, modelselected)
 
 #df = df.set_index('nombre')
 #df.index.name="modelo de tarjeta"
@@ -174,7 +192,7 @@ col2.download_button(label='📥 Descargar a Excel',
 col3.subheader("Top por stock")
 
 df2 = df2.drop(['Unnamed: 0'], axis=1)
-col3.dataframe(data=df2, width=2800, height=600)
+col3.dataframe(data=df2, width=9800, height=1600)
 
 hide_st_style = """
             <style>

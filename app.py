@@ -11,6 +11,7 @@ import json
 import time
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
+from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 st.set_page_config(page_title="Prophet",layout="wide")
 
@@ -145,11 +146,19 @@ else:
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 
 
+gb = GridOptionsBuilder.from_dataframe(df)
+gb.configure_pagination()
+gb.configure_side_bar()
+gb.configure_default_column(groupable=True, value=True, enableRowGroup=True, aggFunc="sum", editable=False)
+gridOptions = gb.build()
+
+
+
 col2.dataframe(data=display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=472)
 #col2.dataframe(data=df, width=2800, height=600)
 
 
-
+AgGrid(df, gridOptions=gridOptions, enable_enterprise_modules=True)
 
 
 

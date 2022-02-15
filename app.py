@@ -11,6 +11,7 @@ import json
 import time
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
+from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 st.set_page_config(page_title="Prophet",layout="wide")

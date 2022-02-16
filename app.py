@@ -107,6 +107,10 @@ df = df.sort_values('stock', ascending=True, ignore_index=True)
 sorted_coin = sorted(df["tienda"].unique())
 selected_coin = col1.multiselect("Tiendas", sorted_coin, sorted_coin)
 
+
+df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
+df2['stock'] = df2['stock'].astype(int)
+
 df2 = df2.drop(['Unnamed: 0'], axis=1)
 col3.dataframe(data=df2, width=9800, height=1600)
 
@@ -188,16 +192,14 @@ col2.download_button(label='📥 Descargar a Excel',
                                 file_name= 'data_video_cards.xlsx')
 
 
-df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
-df2['stock'] = df2['stock'].astype(int)
 
 col3.subheader("Top por stock")
 
 
-with col3:
-    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit', enable_enterprise_modules=True, height=700,)
+#with col3:
+#    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit', enable_enterprise_modules=True, height=700,)
 
-df2
+#df2
 
 hide_st_style = """
             <style>

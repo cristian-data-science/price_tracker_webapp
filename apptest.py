@@ -1,23 +1,16 @@
-import time
-import requests
-
+import pandas as pd
 import streamlit as st
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
+from st_aggrid import AgGrid
+from st_aggrid.grid_options_builder import GridOptionsBuilder
 
 
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
+df = pd.read_csv("resultadofinal.csv")
+gb = GridOptionsBuilder.from_dataframe(df)
 
-lottie_url_hello = "https://assets7.lottiefiles.com/packages/lf20_49rdyysj.json"
-lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
-lottie_hello = load_lottieurl(lottie_url_hello)
-lottie_download = load_lottieurl(lottie_url_download)
+gb.configure_pagination()
+gb.configure_side_bar()
+gb.configure_default_column(groupable=True, value=True, enableRowGroup=True, aggFunc="sum", editable=True)
+gridOptions = gb.build()
 
-
-st_lottie(lottie_hello, key="hello")
-
+AgGrid(df, gridOptions=gridOptions, enable_enterprise_modules=True, theme='dark')

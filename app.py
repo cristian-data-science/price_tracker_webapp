@@ -104,7 +104,9 @@ df2['stock'] = df2['stock'].astype(int)
 
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
-df = df.sort_values("stock", ascending=False, ignore_index=True)
+df = df[['modelo','stock','precios','nombre','enlaces','tienda']]
+#df = df.sort_values("stock", ascending=False, ignore_index=True)
+df = df.sort_values('stock', ascending=True, ignore_index=True)
 
 
 sorted_coin = sorted(df["tienda"].unique())
@@ -146,26 +148,17 @@ else:
 
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 
+#col2.dataframe(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=472)
+#col2.dataframe(data=df, width=2800, height=600)
 
 gb = GridOptionsBuilder.from_dataframe(df)
 gb.configure_pagination()
 gb.configure_side_bar()
-gb.configure_default_column(groupable=True, value=True, enableRowGroup=True, aggFunc="sum", editable=False)
+gb.configure_default_column(editable=False)
 gridOptions = gb.build()
 
-
-
-col2.dataframe(data=display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=472)
-#col2.dataframe(data=df, width=2800, height=600)
-
-
-AgGrid(df, gridOptions=gridOptions, enable_enterprise_modules=True)
-
-
-
-
-
-
+with col2:
+    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=700,)
 
 # Download CSV data
 # https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806

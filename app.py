@@ -150,7 +150,7 @@ else:
 gb = GridOptionsBuilder.from_dataframe(df)
 gb.configure_pagination()
 #gb.configure_side_bar()
-gb.configure_default_column(editable=False)
+gb.configure_default_column(editable=True)
 gridOptions = gb.build()
 
 with col2:

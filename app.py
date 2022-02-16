@@ -94,11 +94,6 @@ col1.header('Ingresa una opción')
 #currency_price_unit = col1.selectbox('Select currency for price', ('USD', 'BTC', 'ETH'))
 vendors = col1.selectbox('Selecciona la moneda', ('CLP', 'USD', 'BTC'))
 
-df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
-df2['stock'] = df2['stock'].astype(int)
-
-
-
 
 #df_selected_coin = df2["modelo"]
 
@@ -191,6 +186,9 @@ col2.download_button(label='📥 Descargar a Excel',
                                 data=df_xlsx ,
                                 file_name= 'data_video_cards.xlsx')
 
+
+df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
+df2['stock'] = df2['stock'].astype(int)
 
 col3.subheader("Top por stock")
 

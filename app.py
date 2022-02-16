@@ -197,7 +197,7 @@ col3.subheader("Top por stock")
 df2 = df2.drop(['Unnamed: 0'], axis=1)
 col3.dataframe(data=df2, width=9800, height=1600)
 with col3:
-    AgGrid(df2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=700,)
+    AgGrid(df2, gridOptions=gridOptions,theme='streamlit', enable_enterprise_modules=True, height=700,)
 
 df2
 

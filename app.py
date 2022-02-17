@@ -64,7 +64,7 @@ st.title('Price & Stock Tracker')
 
 #st.title('Rastreador de tarjetas de video en Chile')
 st.markdown("""
-Esta app recupera el precio y stock de las tarjetas de video de los ecommerce pcfactory y spdigital. Pronto agregaremos más vendedores!
+Esta app recupera el precio y stock de las tarjetas de video de los ecommerce pcfactory y spdigital. Pronto agregaremos más tiendas!
 """)
 
 #---------------------------------#
@@ -110,9 +110,7 @@ selected_coin = col1.multiselect("Tiendas", sorted_coin, sorted_coin)
 
 df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
 df2['stock'] = df2['stock'].astype(int)
-
 df2 = df2.drop(['Unnamed: 0'], axis=1)
-col3.dataframe(data=df2, width=9800, height=1600)
 
 modelselected = sorted(df2["modelo"])
 multimodeselected = col1.multiselect("Tarjetas", modelselected, modelselected)
@@ -154,7 +152,7 @@ else:
 gb = GridOptionsBuilder.from_dataframe(df)
 gb.configure_pagination()
 #gb.configure_side_bar()
-gb.configure_default_column(editable=True)
+gb.configure_default_column(editable=False)
 gridOptions = gb.build()
 
 with col2:
@@ -195,11 +193,11 @@ col2.download_button(label='📥 Descargar a Excel',
 
 col3.subheader("Top por stock")
 
+col3.dataframe(data=df2, width=9800, height=1600)
+
 
 #with col3:
 #    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit', enable_enterprise_modules=True, height=700,)
-
-#df2
 
 hide_st_style = """
             <style>

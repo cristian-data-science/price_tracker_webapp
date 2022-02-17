@@ -1,5 +1,3 @@
-import encodings
-from operator import index
 import streamlit as st
 from PIL import Image
 import pandas as pd
@@ -26,16 +24,12 @@ def load_lottieurl(url: str):
 
     
 
-lottie_url_hello = "https://assets7.lottiefiles.com/packages/lf20_49rdyysj.json"
-lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
-lottie_hello = load_lottieurl(lottie_url_hello)
-lottie_download = load_lottieurl(lottie_url_download)
-lot2 ="https://assets8.lottiefiles.com/private_files/lf30_y7i4hgco.json"
+
+
+#lot2 ="https://assets8.lottiefiles.com/private_files/lf30_y7i4hgco.json"
 
 lottie_url_h = "https://assets7.lottiefiles.com/private_files/lf30_hk1qooeo.json"
-lottie_url_download = "https://assets4.lottiefiles.com/private_files/lf30_t26law.json"
 lot2= load_lottieurl(lottie_url_h)
-lottie_download = load_lottieurl(lottie_url_download)
 
 
 #header_container = st.container()
@@ -83,7 +77,7 @@ expander_bar.markdown("""
 ## Divide page to 3 columns (col1 = sidebar, col2 and col3 = page contents)
 col1 = st.sidebar
 
-col2, col3 = st.columns((2,1))
+col2, col3 = st.columns((4,1))
 
 with st.sidebar:
     st_lottie(lot2, key="lol")#,height=400, width=400)
@@ -149,14 +143,14 @@ else:
 #col2.dataframe(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=472)
 #col2.dataframe(data=df, width=2800, height=600)
 
-gb = GridOptionsBuilder.from_dataframe(df)
-gb.configure_pagination()
+g2 = GridOptionsBuilder.from_dataframe(df)
+g2.configure_pagination()
 #gb.configure_side_bar()
-gb.configure_default_column(editable=False)
-gridOptions = gb.build()
+g2.configure_default_column(editable=False)
+gridOptions = g2.build()
 
 with col2:
-    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=700)
+    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=892)
 
 # Download CSV data
 # https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
@@ -191,13 +185,31 @@ col2.download_button(label='📥 Descargar a Excel',
 
 
 
+
+
+
+loti3 = 'https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json'
+lot3 =load_lottieurl(loti3)
+with col3:
+    st_lottie(lot3, key="loti3")#,height=74, width=200)
+
+
+
+
+#col3.dataframe(data=df2, width=9800, height=1600)
+
+
+
 col3.subheader("Top por stock")
 
-col3.dataframe(data=df2, width=9800, height=1600)
+g2 = GridOptionsBuilder.from_dataframe(df2)
+#g2.configure_pagination()
+#gb.configure_side_bar()
+g2.configure_default_column(editable=False)
+gridOptions = g2.build()
 
-
-#with col3:
-#    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit', enable_enterprise_modules=True, height=700,)
+with col3:
+    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=True, enable_enterprise_modules=False,height= 600)
 
 hide_st_style = """
             <style>

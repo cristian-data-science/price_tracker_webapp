@@ -37,7 +37,7 @@ lot2= load_lottieurl(lottie_url_h)
 
 
 
-#st_lottie(lottie_hello, key="hello",height=400, width=400)
+#st_lottie(lot2, key="hello",height=400, width=400)
 st.title('Price & Stock Tracker')
 
 
@@ -80,7 +80,7 @@ col1 = st.sidebar
 col2, col3 = st.columns((4,1))
 
 with st.sidebar:
-    st_lottie(lot2, key="lol")#,height=400, width=400)
+    st_lottie(lot2, key="lol",height=300, width=300)
 
 col1.header('Ingresa una opción')
 
@@ -97,17 +97,26 @@ df = df[['modelo','stock','precios','nombre','enlaces','tienda']]
 #df = df.sort_values("stock", ascending=False, ignore_index=True)
 df = df.sort_values('stock', ascending=True, ignore_index=True)
 
-
+# filtrando df con selección de tienda
 sorted_coin = sorted(df["tienda"].unique())
 selected_coin = col1.multiselect("Tiendas", sorted_coin, sorted_coin)
+df = df[(df["tienda"].isin(selected_coin))]  # Filtering data
+
+
+# filtrando df con seleción de tarjeta
+
+
 
 
 df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
 df2['stock'] = df2['stock'].astype(int)
 df2 = df2.drop(['Unnamed: 0'], axis=1)
 
-modelselected = sorted(df2["modelo"])
+
+
+modelselected = sorted(df["modelo"].unique())
 multimodeselected = col1.multiselect("Tarjetas", modelselected, modelselected)
+df = df[(df["modelo"].isin(multimodeselected))]  # Filtering data
 
 #df = df.set_index('nombre')
 #df.index.name="modelo de tarjeta"

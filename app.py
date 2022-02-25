@@ -93,7 +93,7 @@ vendors = col1.selectbox('Selecciona la moneda', ('CLP', 'USD', 'BTC'))
 
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
-df = df[['modelo','stock','precios','nombre','enlaces','tienda']]
+df = df[['modelo','stock','precios','nombre','enlaces','tienda','precionumero']]
 #df = df.sort_values("stock", ascending=False, ignore_index=True)
 df = df.sort_values('stock', ascending=True, ignore_index=True)
 
@@ -142,10 +142,24 @@ selectmodel = col2.selectbox('Selecciona un modelo:',model_list, key='modelo')
 # display the collected input
 # st.write('Tu selección actual: ' + str(selectmodel))
 
+
+
 if selectmodel != 'All':
 	display_data2 = df[df['modelo'] == selectmodel]
 else:
 	display_data2 = df.copy()
+
+
+
+minimo_select = display_data2.sort_values('precionumero').head(1)
+barato_enlace = minimo_select['enlaces'].min()
+barato_precio = minimo_select['precios'].min()
+barato_tienda = minimo_select['tienda'].min()
+
+if selectmodel == 'all':
+    est = selectmodel
+else:
+    est = col2.markdown('La opción más barata para la selección esta en la tienda  '+ str(barato_tienda) +' y el precio es: ' + str(barato_precio) + ' ' + str(barato_enlace))
 
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 
@@ -157,6 +171,7 @@ g2.configure_pagination()
 #gb.configure_side_bar()
 g2.configure_default_column(editable=False)
 gridOptions = g2.build()
+
 
 with col2:
     AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=892)

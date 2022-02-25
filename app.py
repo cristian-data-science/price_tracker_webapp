@@ -159,7 +159,7 @@ barato_tienda = minimo_select['tienda'].min()
 if selectmodel == 'all':
     est = selectmodel
 else:
-    est = col2.markdown('La opción más barata para la selección esta en la tienda  '+ str(barato_tienda) +' y el precio es: ' + str(barato_precio) + ' ' + str(barato_enlace))
+    est = col2.markdown('La opción más barata para la selección actual está en la tienda  ' + str(barato_tienda) +' y el precio es de: ' + str(barato_precio) + ' ' + str(barato_enlace))
 
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 

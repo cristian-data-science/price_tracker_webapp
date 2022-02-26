@@ -7,6 +7,6 @@ pyxlsb
 xlsxwriter
 streamlit-lottie
 streamlit-aggrid
-format_currency
+
 
 

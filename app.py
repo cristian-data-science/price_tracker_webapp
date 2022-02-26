@@ -1,5 +1,5 @@
+import numpy as np
 import streamlit as st
-from PIL import Image
 import pandas as pd
 import base64
 import matplotlib.pyplot as plt
@@ -11,8 +11,10 @@ from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
+from babel.numbers import format_currency
 
-st.set_page_config(page_title="Prophet",layout="wide")
+
+st.set_page_config(page_title="Price & Stock Tracker",layout="wide")
 
 counter = 1
 
@@ -22,24 +24,38 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-    
+st.title('Price & Stock Tracker')
+st.markdown("""
+Esta app consume los datos de precio y stock de un webscaper automatizado (rastreador de datos) y muestra sus resultados de forma ordenada y con muy poco retardo. En un update futuro se conectará con un bot de telegram para notificar variaciones de precios y alertas personalizadas
+""")
 
+progress_bar = st.sidebar.progress(0)
+status_text = st.sidebar.empty()
+last_rows = pd.DataFrame(
+     np.random.rand(1, 3),
+     columns=['PcFactory', 'SPDigital', 'Winpy'])
 
+chart = st.line_chart(last_rows)
+
+for i in range(1, 101):
+    new_rows = last_rows + np.random.randn(1, 3).cumsum(axis=0)
+    status_text.text("%i%% Completado" % i)
+    chart.add_rows(new_rows)
+    progress_bar.progress(i)
+    last_rows = new_rows +0.4
+    time.sleep(0.015)
+
+progress_bar.empty()
 
 #lot2 ="https://assets8.lottiefiles.com/private_files/lf30_y7i4hgco.json"
 
 lottie_url_h = "https://assets7.lottiefiles.com/private_files/lf30_hk1qooeo.json"
 lot2= load_lottieurl(lottie_url_h)
 
-
 #header_container = st.container()
 #with header_container:
 
-
-
 #st_lottie(lot2, key="hello",height=400, width=400)
-st.title('Price & Stock Tracker')
-
 
 #---------------------------------#
 # New feature (make sure to upgrade your streamlit library)
@@ -50,27 +66,10 @@ st.title('Price & Stock Tracker')
 ## Page expands to full width
 #st.set_page_config(layout="wide")
 #---------------------------------#
-# Title
-
 #image = Image.open('./images/ptgblue.png')
-
 #st.image(image, width = 650)
 
 #st.title('Rastreador de tarjetas de video en Chile')
-st.markdown("""
-Esta app recupera el precio y stock de las tarjetas de video de los ecommerce pcfactory y spdigital. Pronto agregaremos más tiendas!
-""")
-
-#---------------------------------#
-# About
-expander_bar = st.expander("About")
-expander_bar.markdown("""
-*   Esta app consume datos de un webscaper automatizado y muestra la data de forma ordenada. En un update futuro se conectará con un bot de telegram para notificar variaciones de precios o alertas personalizadas
-* **Librerías de python utilizadas:** base64, pandas, streamlit, numpy, requests, json, time
-* **Data source:** Web scraping [pcfactory](https://www.pcfactory.cl/) & [spdigital](https://www.spdigital.cl/) (pronto agregaremos más)
-* **Credit:** Web scraper adaptado del articulo de deepnote [Web Scraping y analisis de datos](https://deepnote.com/@cristian-gutierrez/Web-Scraping-y-analisis-de-datos-WYrIuoDkRKOx6kN4kG9VQA).
-""")
-
 
 #---------------------------------#
 # Page layout (continued)
@@ -78,8 +77,9 @@ expander_bar.markdown("""
 col1 = st.sidebar
 
 col2, col3 = st.columns((4,1))
-
+#lot3 =load_lottieurl('https://assets6.lottiefiles.com/packages/lf20_iveeaney.json')
 with st.sidebar:
+    #st_lottie(lot3, key="lol3",height=300, width=300)
     st_lottie(lot2, key="lol",height=300, width=300)
 
 col1.header('Ingresa una opción')
@@ -95,7 +95,7 @@ df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
 df = df[['modelo','stock','precios','nombre','enlaces','tienda','precionumero']]
 #df = df.sort_values("stock", ascending=False, ignore_index=True)
-df = df.sort_values('stock', ascending=True, ignore_index=True)
+df = df.sort_values('precionumero', ascending=False, ignore_index=True)
 
 # filtrando df con selección de tienda
 sorted_coin = sorted(df["tienda"].unique())
@@ -111,7 +111,19 @@ df = df[(df["tienda"].isin(selected_coin))]  # Filtering data
 df2 = pd.read_csv('top_stock.csv', encoding="utf'8")
 df2['stock'] = df2['stock'].astype(int)
 df2 = df2.drop(['Unnamed: 0'], axis=1)
+df2 = df2.sort_values('modelo', ascending=True)
 
+df3 = df['modelo']
+
+
+df4 = df[['modelo', 'precionumero']]
+df4 = round(df4.groupby(['modelo'])[['precionumero']].mean())
+pd.DataFrame(df4).reset_index(inplace=True, drop=False)
+df4 = df4.sort_values('precionumero', ascending=False)
+filtro = df4['modelo'] !=  'OTROS'
+df4 = df4[filtro]
+df4['precionumero'] = df4['precionumero'].apply(lambda x: format_currency(x, currency="CLP", locale="es_CL"))
+df4.columns = ['modelo', '$$$$$$$$']
 
 
 modelselected = sorted(df["modelo"].unique())
@@ -159,7 +171,7 @@ barato_tienda = minimo_select['tienda'].min()
 if selectmodel == 'all':
     est = selectmodel
 else:
-    est = col2.markdown('La opción más barata para la selección actual está en la tienda  ' + str(barato_tienda) +' y el precio es de: ' + str(barato_precio) + ' ' + str(barato_enlace))
+    est = col2.info('**La opción más barata para la selección actual está en la tienda**  ' + str(barato_tienda.upper()) +' **y el precio es de:** ' + str(barato_precio) + ' ' + str(barato_enlace))
 
 #col2.write(display_data2.sort_values('stock', ascending=True, ignore_index=True),width=2800, height=600)
 
@@ -174,7 +186,7 @@ gridOptions = g2.build()
 
 
 with col2:
-    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True, height=892)
+    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True)#, height=892)
 
 # Download CSV data
 # https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
@@ -224,16 +236,45 @@ with col3:
 
 
 
-col3.subheader("Top por stock")
+col3.subheader("Precio promedio")
 
-g2 = GridOptionsBuilder.from_dataframe(df2)
+g2 = GridOptionsBuilder.from_dataframe(df4)
 #g2.configure_pagination()
 #gb.configure_side_bar()
 g2.configure_default_column(editable=False)
 gridOptions = g2.build()
 
 with col3:
-    AgGrid(df2[['modelo','stock']], gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=True, enable_enterprise_modules=False,height= 600)
+    AgGrid(df4, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=True, enable_enterprise_modules=False,height= 600)
+
+
+df2 = df2.sort_values('stock', ascending=True)
+#plt.figure(facecolor='#d33682')
+plt.barh(df2['modelo'],df2['stock'])
+
+#plt.ylabel('Tarjetas gráficas')
+#plt.xlabel('stock sumado por modelo')
+#plt.figure(figsize=(5, 25))
+
+plt.title('Suma de stock por modelo')
+ax = plt.gca()
+#ax.set_facecolor('#002b36')
+col2.pyplot(plt)
+
+
+
+
+
+# About
+expander_bar = st.expander("Sobre la aplicación")
+expander_bar.markdown("""
+* **Tecnologías utilizadas (python):** streamlit, scrapy, pandas, matplotlib, numpy, requests, json, api telegram
+* **Origen de los datos:**  [pcfactory](https://www.pcfactory.cl/) - [spdigital](https://www.spdigital.cl/) - [winpy](https://www.winpy.cl/) (pronto agregaremos más)
+* **Credit:** Web scraper adaptado del articulo de deepnote [Web Scraping y analisis de datos](https://deepnote.com/@cristian-gutierrez/Web-Scraping-y-analisis-de-datos-WYrIuoDkRKOx6kN4kG9VQA).
+""")
+
+
+
 
 hide_st_style = """
             <style>
@@ -243,3 +284,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+

@@ -1,29 +1,35 @@
+import time
+from tkinter.tix import COLUMN
 import streamlit as st
+import numpy as np
 import pandas as pd
-from bokeh.plotting import figure
-from bokeh.models import ColumnDataSource, CustomJS
-from bokeh.models import DataTable, TableColumn, HTMLTemplateFormatter
-from streamlit_bokeh_events import streamlit_bokeh_events
 
-df2 = pd.read_csv("resultadofinal.csv")
-df2['links'] = df2['enlaces']
-df3 = df2
-df3 = pd.DataFrame(df3)
+progress_bar = st.sidebar.progress(0)
+status_text = st.sidebar.empty()
+last_rows = pd.DataFrame(
+     np.random.rand(1, 3),
+     columns=['PcFactory', 'SPDigital', 'Winpy'])
 
-# create plot
-cds = ColumnDataSource(df3)
-columns = [
-TableColumn(field="links", title="links", formatter=HTMLTemplateFormatter(template='<a href="<%= value %>"target="_blank"><%= value %>')),
-]
+chart = st.line_chart(last_rows)
 
-pd.DataFrame(columns)
+for i in range(1, 101):
+    new_rows = last_rows + np.random.rand(1, 3).cumsum(axis=0)
+    status_text.text("%i%% Completado" % i)
+    chart.add_rows(new_rows)
+    progress_bar.progress(i)
+    last_rows = new_rows +0.4
+    time.sleep(0.02)
+
+progress_bar.empty()
+
+# Streamlit widgets automatically run the script from top to bottom. Since
+# this button is not connected to any other logic, it just causes a plain
+# rerun.
+st.button("Re-run")
 
 
-# define events
+xx=pd.DataFrame(
+     np.random.randn(1, 3),
+     columns=['PcFactory', 'SPDigital', 'Winpy'])
 
-p = DataTable(source=cds, columns=columns, css_classes=["my_table"])
-result = streamlit_bokeh_events(bokeh_plot=p, events="INDEX_SELECT", key="foo", refresh_on_update=False, debounce_time=0, override_height=100)
-
-
-pd.DataFrame(columns)
-columns
+xx

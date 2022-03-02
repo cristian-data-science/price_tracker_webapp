@@ -94,7 +94,7 @@ vendors = col1.selectbox('Selecciona la moneda', ('CLP', 'USD', 'BTC'))
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
 
-df = df[['modelo','stock','precios','nombre','enlaces','tienda']]
+df = df[['modelo','stock','precios','nombre','enlaces','tienda', 'precionumero']]
 #df = df.sort_values("stock", ascending=False, ignore_index=True)
 df = df.sort_values('precionumero', ascending=False, ignore_index=True)
 

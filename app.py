@@ -187,7 +187,7 @@ gridOptions = g2.build()
 
 
 with col2:
-    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=True)#, height=892)
+    AgGrid(display_data2, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=False, enable_enterprise_modules=False)#, height=892)
 
 # Download CSV data
 # https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806

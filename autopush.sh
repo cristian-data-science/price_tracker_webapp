@@ -1,6 +1,25 @@
 #!/bin/bash
 
+# ejecutando crawlers
 
+#python3 ./video_cards/video_cards/spiders/autospdigital.py
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/spiders/autopcfactory.py
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/spiders/autowinpy.py
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/spiders/tecnomaster.py
+
+
+# ejecutando data cleaners
+
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/cleaners/autocleanerPC.py
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/cleaners/autocleanerTN.py
+#python3 ./video_cards/video_cards/cleaners/autocleanerSP.py
+python3 /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/cleaners/autounify.py
+
+# copiando resultado a directorio de la app
+
+cp -rf /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_cards/resultados/resultadofinal.csv /home/ubuntu/gitprojects/price_tracker_webapp/resultadofinal.csv
+
+# ejecutando autopush
 
 #  copiar o mover este script a /usr/bin o /usr/local/bin y desde el directorio donde se encuentre la copia de un repo git, ejecútalo de esta manera:
 # script + <ficheros>

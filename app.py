@@ -33,7 +33,7 @@ progress_bar = st.sidebar.progress(0)
 status_text = st.sidebar.empty()
 last_rows = pd.DataFrame(
      np.random.rand(1, 3),
-     columns=['PcFactory', 'SPDigital', 'Winpy'])
+     columns=['PcFactory', 'SPDigital', 'Winpy','TecnoMaster'])
 
 chart = st.line_chart(last_rows)
 

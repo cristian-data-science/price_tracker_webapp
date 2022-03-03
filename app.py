@@ -287,4 +287,6 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-
+from PIL import Image
+image = Image.open('./images/current_process.png')
+st.image(image)# width = 650)

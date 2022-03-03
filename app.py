@@ -89,7 +89,7 @@ col1.header('Ingresa una opción')
 vendors = col1.selectbox('Selecciona la moneda', ('CLP', 'USD', 'BTC'))
 
 
-#df_selected_coin = df2["modelo"]
+#df_sorted_store = df2["modelo"]
 
 df = pd.read_csv('resultadofinal.csv', encoding="utf'8")
 df = df.drop(['Unnamed: 0'], axis=1)
@@ -99,9 +99,9 @@ df = df[['modelo','stock','precios','nombre','enlaces','tienda', 'precionumero']
 df = df.sort_values('precionumero', ascending=False, ignore_index=True)
 
 # filtrando df con selección de tienda
-sorted_coin = sorted(df["tienda"].unique())
-selected_coin = col1.multiselect("Tiendas", sorted_coin, sorted_coin)
-df = df[(df["tienda"].isin(selected_coin))]  # Filtering data
+sorted_store = sorted(df["tienda"].unique())
+sorted_store = col1.multiselect("Tiendas", sorted_store, sorted_store)
+df = df[(df["tienda"].isin(sorted_store))]  # Filtering data
 
 
 # filtrando df con seleción de tarjeta
@@ -114,17 +114,17 @@ df2['stock'] = df2['stock'].astype(int)
 df2 = df2.drop(['Unnamed: 0'], axis=1)
 df2 = df2.sort_values('modelo', ascending=True)
 
-df3 = df['modelo']
+#df3 = df['modelo']
 
 
-df4 = df[['modelo', 'precionumero']]
-df4 = round(df4.groupby(['modelo'])[['precionumero']].mean())
-pd.DataFrame(df4).reset_index(inplace=True, drop=False)
-df4 = df4.sort_values('precionumero', ascending=False)
-filtro = df4['modelo'] !=  'OTROS'
-df4 = df4[filtro]
-df4['precionumero'] = df4['precionumero'].apply(lambda x: format_currency(x, currency="CLP", locale="es_CL"))
-df4.columns = ['modelo', '$$$$$$$$']
+df3 = df[['modelo', 'precionumero']]
+df3 = round(df3.groupby(['modelo'])[['precionumero']].mean())
+pd.DataFrame(df3).reset_index(inplace=True, drop=False)
+df3 = df3.sort_values('precionumero', ascending=False)
+filtro = df3['modelo'] !=  'OTROS'
+df3 = df3[filtro]
+df3['precionumero'] = df3['precionumero'].apply(lambda x: format_currency(x, currency="CLP", locale="es_CL"))
+df3.columns = ['modelo', '$$$$$$$$']
 
 
 modelselected = sorted(df["modelo"].unique())
@@ -239,14 +239,14 @@ with col3:
 
 col3.subheader("Precio promedio")
 
-g2 = GridOptionsBuilder.from_dataframe(df4)
+g2 = GridOptionsBuilder.from_dataframe(df3)
 #g2.configure_pagination()
 #gb.configure_side_bar()
 g2.configure_default_column(editable=False)
 gridOptions = g2.build()
 
 with col3:
-    AgGrid(df4, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=True, enable_enterprise_modules=False,height= 600)
+    AgGrid(df3, gridOptions=gridOptions,theme='streamlit',fit_columns_on_grid_load=True, enable_enterprise_modules=False,height= 600)
 
 
 df2 = df2.sort_values('stock', ascending=True)

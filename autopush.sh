@@ -25,6 +25,8 @@ cp -rf /home/ubuntu/gitprojects/webscraper_chile_video_cards/video_cards/video_c
 # script + <ficheros>
 
 # Comprobamos si el directorio en el que estamos es de un repositorio git
+cd /home/ubuntu/gitprojects/price_tracker_webapp/
+
 if [ ! -d '.git' ]; then
 	echo 'Esta carpeta no contiene un repositorio Git'
 	exit -1

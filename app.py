@@ -124,7 +124,7 @@ df3 = df3.sort_values('precionumero', ascending=False)
 filtro = df3['modelo'] !=  'OTROS'
 df3 = df3[filtro]
 df3['precionumero'] = df3['precionumero'].apply(lambda x: format_currency(x, currency="CLP", locale="es_CL"))
-df3.columns = ['modelo', '$$$$$$$$']
+df3.columns = ['modelo', 'precio']
 
 
 modelselected = sorted(df["modelo"].unique())

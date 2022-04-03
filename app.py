@@ -271,7 +271,8 @@ expander_bar = st.expander("Sobre la aplicación")
 expander_bar.markdown("""
 * **Tecnologías utilizadas (python):** streamlit, scrapy, pandas, matplotlib, numpy, requests, json, api telegram
 * **Origen de los datos:**  [pcfactory](https://www.pcfactory.cl/) - [spdigital](https://www.spdigital.cl/) - [winpy](https://www.winpy.cl/) (pronto agregaremos más)
-* **Credit:** Web scraper adaptado del articulo de deepnote [Web Scraping y analisis de datos](https://deepnote.com/@cristian-gutierrez/Web-Scraping-y-analisis-de-datos-WYrIuoDkRKOx6kN4kG9VQA).
+* **Credit:** Web scraper adaptado del articulo de deepnote [Web Scraping y analisis de datos](https://deepnote.com/@cristian-gutierrez/Web-Scraping-y-analisis-de-datos-WYrIuoDkRKOx6kN4kG9VQA)
+* **Autor:** [Cristian Gutiérrez] (https://cristiangutierrez.net)
 """)
 
 

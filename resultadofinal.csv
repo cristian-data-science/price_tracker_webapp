@@ -1,59 +1,59 @@
 ,nombre,precios,stock,enlaces,tienda,modelo,precionumero
 0,MSI  GTX 1650 VENTUS XS 4G OC,$395.000,1,https://tecno-master.cl/producto/msi-geforce-gtx-1650-ventus-xs-4g-oc-4gb-128-bit-gddr5-pci-express-3-0-x16/,tecno master,1650,395000
-1,  RTX3070 8GB LHR GAMING Z TRIO,$ 959.990,1,https://www.pcfactory.cl/producto/42448-msi-video-nvidia-geforce-rtx3070-8gb-lhr-gaming-z-trio,pcfactory,3070,959990
-2,  RTX3070TI 8GB ROG STRIX,$ 1.099.990,1,https://www.pcfactory.cl/producto/42996-asus-video-nvidia-geforce-rtx3070ti-8gb-rog-strix,pcfactory,3070TI,1099990
-3, RADEON RX 6700XT 12GB MECH 2X OC,$ 659.990,1,https://www.pcfactory.cl/producto/41138-msi-video-amd-radeon-rx-6700xt-12gb-mech-2x-oc,pcfactory,6700XT,659990
-4,  RTX3080 10GB MASTER V2.0,$ 1.399.990,1,https://www.pcfactory.cl/producto/42671-gigabyte-video-nvidia-geforce-rtx3080-10gb-master-v2-0,pcfactory,3080,1399990
-5,MSI ® N210-MD1G/ D3 DDR3 64 BITS PCI EXPRESS X16 2.0,$46.390,1,https://www.spdigital.cl/products/view/38673,spdigital,OTROS,46390
-6,"GIGABYTE  RTX 3070TI GAMING OC, 8GB, GDDR6X, 256BITS, PCI-E 4.0, HDMI",$1.249.990,1,https://www.spdigital.cl/products/view/83412,spdigital,3070TI,1249990
-7,  RTX3060TI 8GB 1-CLICK OC LHR,$ 919.990,1,https://www.pcfactory.cl/producto/43332-galax-video-nvidia-geforce-rtx3060ti-8gb-1-click-oc-lhr,pcfactory,3060TI,919990
+1,  RTX3060TI 8GB 1-CLICK OC LHR,$ 919.990,1,https://www.pcfactory.cl/producto/43332-galax-video-nvidia-geforce-rtx3060ti-8gb-1-click-oc-lhr,pcfactory,3060TI,919990
+2,  RTX3070 8GB LHR GAMING Z TRIO,$ 959.990,1,https://www.pcfactory.cl/producto/42448-msi-video-nvidia-geforce-rtx3070-8gb-lhr-gaming-z-trio,pcfactory,3070,959990
+3,  RTX3070TI 8GB ROG STRIX,$ 1.099.990,1,https://www.pcfactory.cl/producto/42996-asus-video-nvidia-geforce-rtx3070ti-8gb-rog-strix,pcfactory,3070TI,1099990
+4, RADEON RX 6700XT 12GB MECH 2X OC,$ 659.990,1,https://www.pcfactory.cl/producto/41138-msi-video-amd-radeon-rx-6700xt-12gb-mech-2x-oc,pcfactory,6700XT,659990
+5,  RTX3080 10GB MASTER V2.0,$ 1.399.990,1,https://www.pcfactory.cl/producto/42671-gigabyte-video-nvidia-geforce-rtx3080-10gb-master-v2-0,pcfactory,3080,1399990
+6,MSI ® N210-MD1G/ D3 DDR3 64 BITS PCI EXPRESS X16 2.0,$46.390,1,https://www.spdigital.cl/products/view/38673,spdigital,OTROS,46390
+7,"GIGABYTE  RTX 3070TI GAMING OC, 8GB, GDDR6X, 256BITS, PCI-E 4.0, HDMI",$1.249.990,1,https://www.spdigital.cl/products/view/83412,spdigital,3070TI,1249990
 8,ASUS DUAL RADEON RX 6600 DE 8GB GDDR6,$ 519.840,1,https://www.winpy.cl/venta/tarjeta-de-video-asus-dual-radeon-rx-6600-de-8gb-gddr6/,winpy,6600,519840
 9,  GTX1660S 6GB VENTUS XS OC,$ 359.990,1,https://www.pcfactory.cl/producto/38282-msi-video-nvidia-geforce-gtx1660s-6gb-ventus-xs-oc,pcfactory,1660S,359990
 10,MSI  RTX 3090 VENTUS 3X 24G OC,$ 1.999.712,1,https://www.winpy.cl/venta/tarjeta-de-video-msi-geforce-rtx-3090-ventus-3x-24g-oc/,winpy,3090,1999712
 11,"GIGABYTE  RTX 3080TI VISION OC, 12GB, GDDR6X, 384BITS, PCI-E 4.0, HDMI",$1.799.990,1,https://www.spdigital.cl/products/view/83414,spdigital,3080TI,1799990
 12,  RTX3070 O8GB DUAL V2,$ 839.990,1,https://www.pcfactory.cl/producto/43635-asus-video-nvidia-geforce-rtx3070-o8gb-dual-v2,pcfactory,3070,839990
-13,GIGABYTE   GT 730,$108.900,1,https://tecno-master.cl/producto/gigabyte-geforce-nvidia-gt-730/,tecno master,OTROS,108900
-14,ARMADO DE PC NÂ° 34 [I5-9500],$392.990,1,https://tecno-master.cl/producto/armado-de-pc-n-34-i5-9500/,tecno master,OTROS,392990
+13, QUADRO P620 V2 2GB GDDR5,$ 195.990,1,https://www.pcfactory.cl/producto/36428-pny-video-nvidia-quadro-p620-v2-2gb-gddr5,pcfactory,OTROS,195990
+14,GIGABYTE   GT 730,$108.900,1,https://tecno-master.cl/producto/gigabyte-geforce-nvidia-gt-730/,tecno master,OTROS,108900
 15,GIGABYTE   GTX 1660 TI OC,$614.990,1,https://tecno-master.cl/producto/gigabyte-nvidia-geforce-gtx-1660-ti-oc/,tecno master,1660TI,614990
-16, QUADRO P620 V2 2GB GDDR5,$ 195.990,1,https://www.pcfactory.cl/producto/36428-pny-video-nvidia-quadro-p620-v2-2gb-gddr5,pcfactory,OTROS,195990
+16,ARMADO DE PC NÂ° 34 [I5-9500],$392.990,1,https://tecno-master.cl/producto/armado-de-pc-n-34-i5-9500/,tecno master,OTROS,392990
 17,  GT1030 2GB PHOENIX,$ 159.990,1,https://www.pcfactory.cl/producto/35635-asus-video-nvidia-geforce-gt1030-2gb-phoenix,pcfactory,OTROS,159990
-18,BRACKET VERTICAL SHARKOON ELITE PCI-E 3.0 PARA TARJETAS DE VIDEO ,$23.990,2,https://www.spdigital.cl/products/view/80612,spdigital,OTROS,23990
+18,  RTX3080TI 12GB GAMING X TRIO,$ 1.699.990,2,https://www.pcfactory.cl/producto/42238-msi-video-nvidia-geforce-rtx3080ti-12gb-gaming-x-trio,pcfactory,3080TI,1699990
 19,  RTX3080 O10GB ROG STRIX V2,$ 1.299.990,2,https://www.pcfactory.cl/producto/43631-asus-video-nvidia-geforce-rtx3080-o10gb-rog-strix-v2,pcfactory,3080,1299990
-20,GIGABYTE  RTX 3080 TI VISION OC 12GB,$1.789.800,2,https://tecno-master.cl/producto/gigabyte-geforce-rtx-3080-ti-vision-oc-12gb/,tecno master,3080TI,1789800
-21,MSI RADEON RX 6900 XT GAMING Z TRIO 16G,$1.628.890,2,https://tecno-master.cl/producto/msi-radeon-rx-6900-xt-gaming-z-trio-16g/,tecno master,6900XT,1628890
-22,ASUS PHOENIX  RTX 3050 DE 8GB GDDR6,$ 462.080,2,https://www.winpy.cl/venta/tarjeta-de-video-asus-phoenix-geforce-rtx-3050-de-8gb-gddr6/,winpy,3050,462080
-23,  RTX3080TI 12GB GAMING X TRIO,$ 1.699.990,2,https://www.pcfactory.cl/producto/42238-msi-video-nvidia-geforce-rtx3080ti-12gb-gaming-x-trio,pcfactory,3080TI,1699990
-24,  RTX3070 O8GB V2 TUF GAMING LHR,$ 919.990,2,https://www.pcfactory.cl/producto/43634-asus-video-nvidia-geforce-rtx3070-o8gb-v2-tuf-gaming-lhr,pcfactory,3070,919990
-25, QUADRO P400 2GB GDDR5 V2,$ 145.990,2,https://www.pcfactory.cl/producto/37862-pny-video-nvidia-quadro-p400-2gb-gddr5-v2,pcfactory,OTROS,145990
-26,ASUS TUF GAMING  RTX 3080 DE 12GB GDDR6X,$ 1.594.784,2,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-3080-de-12gb-gddr6x/,winpy,3080,1594784
-27,  RTX3070TI 8GB VISION OC,$ 1.059.990,2,https://www.pcfactory.cl/producto/42668-gigabyte-video-nvidia-geforce-rtx3070ti-8gb-vision-oc,pcfactory,3070TI,1059990
+20,BRACKET VERTICAL SHARKOON ELITE PCI-E 3.0 PARA TARJETAS DE VIDEO ,$23.990,2,https://www.spdigital.cl/products/view/80612,spdigital,OTROS,23990
+21, QUADRO P400 2GB GDDR5 V2,$ 145.990,2,https://www.pcfactory.cl/producto/37862-pny-video-nvidia-quadro-p400-2gb-gddr5-v2,pcfactory,OTROS,145990
+22,  RTX3070 O8GB V2 TUF GAMING LHR,$ 919.990,2,https://www.pcfactory.cl/producto/43634-asus-video-nvidia-geforce-rtx3070-o8gb-v2-tuf-gaming-lhr,pcfactory,3070,919990
+23,GIGABYTE  RTX 3080 TI VISION OC 12GB,$1.789.800,2,https://tecno-master.cl/producto/gigabyte-geforce-rtx-3080-ti-vision-oc-12gb/,tecno master,3080TI,1789800
+24,  RTX3070TI 8GB VISION OC,$ 1.059.990,2,https://www.pcfactory.cl/producto/42668-gigabyte-video-nvidia-geforce-rtx3070ti-8gb-vision-oc,pcfactory,3070TI,1059990
+25,ASUS TUF GAMING  RTX 3080 DE 12GB GDDR6X,$ 1.594.784,2,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-3080-de-12gb-gddr6x/,winpy,3080,1594784
+26,ASUS PHOENIX  RTX 3050 DE 8GB GDDR6,$ 462.080,2,https://www.winpy.cl/venta/tarjeta-de-video-asus-phoenix-geforce-rtx-3050-de-8gb-gddr6/,winpy,3050,462080
+27,MSI RADEON RX 6900 XT GAMING Z TRIO 16G,$1.628.890,2,https://tecno-master.cl/producto/msi-radeon-rx-6900-xt-gaming-z-trio-16g/,tecno master,6900XT,1628890
 28, QUADRO RTX A4000 16GB GDDR6,$ 1.224.290,3,https://www.pcfactory.cl/producto/43475-pny-video-nvidia-quadro-rtx-a4000-16gb-gddr6,pcfactory,OTROS,1224290
-29,  GTX1660S 6GB PHOENIX,$ 359.990,3,https://www.pcfactory.cl/producto/37103-asus-video-nvidia-geforce-gtx1660s-6gb-phoenix,pcfactory,1660S,359990
-30, RADEON RX 6800XT O16GB ROG STRIX LC GAMING,$ 1.359.990,3,https://www.pcfactory.cl/producto/40291-asus-video-amd-radeon-rx-6800xt-o16gb-rog-strix-lc-gaming,pcfactory,6800XT,1359990
-31,  GTX1660S 6GB SC ULTRA,$ 359.990,3,https://www.pcfactory.cl/producto/40495-evga-video-nvidia-geforce-gtx1660s-6gb-sc-ultra,pcfactory,1660S,359990
-32,  GTX1050TI 4GB D5,$ 219.990,3,https://www.pcfactory.cl/producto/43027-gigabyte-video-nvidia-geforce-gtx1050ti-4gb-d5,pcfactory,1050TI,219990
+29, RADEON RX 6800XT O16GB ROG STRIX LC GAMING,$ 1.359.990,3,https://www.pcfactory.cl/producto/40291-asus-video-amd-radeon-rx-6800xt-o16gb-rog-strix-lc-gaming,pcfactory,6800XT,1359990
+30,  GTX1660S 6GB PHOENIX,$ 359.990,3,https://www.pcfactory.cl/producto/37103-asus-video-nvidia-geforce-gtx1660s-6gb-phoenix,pcfactory,1660S,359990
+31,  GTX1050TI 4GB D5,$ 219.990,3,https://www.pcfactory.cl/producto/43027-gigabyte-video-nvidia-geforce-gtx1050ti-4gb-d5,pcfactory,1050TI,219990
+32,  GTX1660S 6GB SC ULTRA,$ 359.990,3,https://www.pcfactory.cl/producto/40495-evga-video-nvidia-geforce-gtx1660s-6gb-sc-ultra,pcfactory,1660S,359990
 33,TECLADO THERMALTAKE NEPTUNE PRO BLUE LIGHT (KB-NPP-TBBLSP-01),$54.980,3,https://tecno-master.cl/producto/teclado-thermaltake-neptune-pro-blue-light-kb-npp-tbblsp-01/,tecno master,OTROS,54980
 34,  RTX3080 10GB ULTRA GAMING,$ 1.159.990,4,https://www.pcfactory.cl/producto/45290-evga-video-nvidia-geforce-rtx3080-10gb-ultra-gaming,pcfactory,3080,1159990
-35,  RTX3050 O8GB ROG STRIX GAMING,$ 689.990,4,https://www.pcfactory.cl/producto/45075-asus-video-nvidia-geforce-rtx3050-o8gb-rog-strix-gaming,pcfactory,3050,689990
-36,  RTX3060TI 8GB GAMING PRO OC,$ 719.990,4,https://www.pcfactory.cl/producto/40002-gigabyte-video-nvidia-geforce-rtx3060ti-8gb-gaming-pro-oc,pcfactory,3060TI,719990
-37,  RTX3080 10GB GAMEROCK,$ 1.299.990,4,https://www.pcfactory.cl/producto/43914-palit-video-nvidia-geforce-rtx3080-10gb-gamerock,pcfactory,3080,1299990
-38,  RTX3070TI 8GB EAGLE OC,$ 999.990,4,https://www.pcfactory.cl/producto/42663-gigabyte-video-nvidia-geforce-rtx3070ti-8gb-eagle-oc,pcfactory,3070TI,999990
-39,"INTEL CORE I3-10105F (LGA1200, 3.7GHZ, 4 NÃºCLEOS, SIN GRÃ¡FICOS)",$89.050,4,https://tecno-master.cl/producto/intel-core-i3-10105f-lga1200-3-7ghz-4-nucleos-sin-graficos/,tecno master,OTROS,89050
-40,"INTEL CORE I3-12100F (LGA1700, 4 CORES, 8 HILOS, 3.30/4.30 GHZ, SIN VIDEO)",$124.990,4,https://tecno-master.cl/producto/intel-core-i3-12100f-lga1700-4-cores-8-hilos-3-30-4-30-ghz-sin-video/,tecno master,OTROS,124990
+35,"INTEL CORE I3-12100F (LGA1700, 4 CORES, 8 HILOS, 3.30/4.30 GHZ, SIN VIDEO)",$124.990,4,https://tecno-master.cl/producto/intel-core-i3-12100f-lga1700-4-cores-8-hilos-3-30-4-30-ghz-sin-video/,tecno master,OTROS,124990
+36,  RTX3050 O8GB ROG STRIX GAMING,$ 689.990,4,https://www.pcfactory.cl/producto/45075-asus-video-nvidia-geforce-rtx3050-o8gb-rog-strix-gaming,pcfactory,3050,689990
+37,  RTX3060TI 8GB GAMING PRO OC,$ 719.990,4,https://www.pcfactory.cl/producto/40002-gigabyte-video-nvidia-geforce-rtx3060ti-8gb-gaming-pro-oc,pcfactory,3060TI,719990
+38,  RTX3080 10GB GAMEROCK,$ 1.299.990,4,https://www.pcfactory.cl/producto/43914-palit-video-nvidia-geforce-rtx3080-10gb-gamerock,pcfactory,3080,1299990
+39,  RTX3070TI 8GB EAGLE OC,$ 999.990,4,https://www.pcfactory.cl/producto/42663-gigabyte-video-nvidia-geforce-rtx3070ti-8gb-eagle-oc,pcfactory,3070TI,999990
+40,"INTEL CORE I3-10105F (LGA1200, 3.7GHZ, 4 NÃºCLEOS, SIN GRÃ¡FICOS)",$89.050,4,https://tecno-master.cl/producto/intel-core-i3-10105f-lga1200-3-7ghz-4-nucleos-sin-graficos/,tecno master,OTROS,89050
 41,GIGABYTE  GTX 1660 SUPER OC 6GB,$545.450,4,https://tecno-master.cl/producto/gigabyte-geforce-gtx-1660-super-oc-6gb/,tecno master,1660,545450
 42,ASUS ROG STRIX RADEON RX 6700 XT OC EDITION DE 12GB GDDR6,$ 1.110.816,4,https://www.winpy.cl/venta/tarjeta-de-video-asus-rog-strix-radeon-rx-6700-xt-oc-edition-de-12gb-gddr6/,winpy,6700XT,1110816
-43,ZOTAC GAMING  RTX 3080 TRINITY LHR DE 10GB GDDR6X,$ 1.349.760,4,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3080-trinity-lhr-de-10gb-gddr6x/,winpy,3080,1349760
-44,  GTX1660TI 6GB EVO TUF GAMING GDDR6 ,$ 429.990,4,https://www.pcfactory.cl/producto/45248-asus-video-nvidia-geforce-gtx1660ti-6gb-evo-tuf-gaming-gddr6,pcfactory,1660TI,429990
-45,ZOTAC GAMING  RTX 2060 BLACK DE 6GB GDDR6,$ 499.776,4,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-2060-black-de-6gb-gddr6/,winpy,2060,499776
-46,ASUS ROG STRIX  RTX 3080 TI OC EDITION DE 12GB GDDR6X,$ 2.002.144,4,https://www.winpy.cl/venta/tarjeta-de-video-asus-rog-strix-geforce-rtx-3080-ti-oc-edition-de-12gb-gddr6x/,winpy,3080TI,2002144
+43,  GTX1660TI 6GB EVO TUF GAMING GDDR6 ,$ 429.990,4,https://www.pcfactory.cl/producto/45248-asus-video-nvidia-geforce-gtx1660ti-6gb-evo-tuf-gaming-gddr6,pcfactory,1660TI,429990
+44,ZOTAC GAMING  RTX 2060 BLACK DE 6GB GDDR6,$ 499.776,4,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-2060-black-de-6gb-gddr6/,winpy,2060,499776
+45,ASUS ROG STRIX  RTX 3080 TI OC EDITION DE 12GB GDDR6X,$ 2.002.144,4,https://www.winpy.cl/venta/tarjeta-de-video-asus-rog-strix-geforce-rtx-3080-ti-oc-edition-de-12gb-gddr6x/,winpy,3080TI,2002144
+46,ZOTAC GAMING  RTX 3080 TRINITY LHR DE 10GB GDDR6X,$ 1.349.760,4,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3080-trinity-lhr-de-10gb-gddr6x/,winpy,3080,1349760
 47, RADEON 16GB RX 6900XT ROG STRIX LC GAMING,$ 1.499.990,5,https://www.pcfactory.cl/producto/43642-asus-video-amd-radeon-16gb-rx-6900xt-rog-strix-lc-gaming,pcfactory,6900XT,1499990
-48,  RTX3080 10GB V2 TUF GAMING LHR,$ 1.279.990,5,https://www.pcfactory.cl/producto/43632-asus-video-nvidia-geforce-rtx3080-10gb-v2-tuf-gaming-lhr,pcfactory,3080,1279990
-49,ASUS DUAL  RTX 3050 OC EDITION DE 8GB GDDR6,$ 521.664,5,https://www.winpy.cl/venta/tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-edition-de-8gb-gddr6/,winpy,3050,521664
-50,  GT710 SL-2GD5-CSM,$ 84.990,5,https://www.pcfactory.cl/producto/26690-asus-video-nvidia-geforce-gt710-sl-2gd5-csm,pcfactory,OTROS,84990
-51,  RTX3080 O10GB ROG STRIX WHITE V2,$ 1.379.990,5,https://www.pcfactory.cl/producto/45247-asus-video-nvidia-geforce-rtx3080-o10gb-rog-strix-white-v2,pcfactory,3080,1379990
-52,  RTX3060TI 8GB EAGLE OC,$ 699.990,5,https://www.pcfactory.cl/producto/39999-gigabyte-video-nvidia-geforce-rtx3060ti-8gb-eagle-oc,pcfactory,3060TI,699990
-53,  GTX1650 O4GB DUAL ,$ 269.990,5,https://www.pcfactory.cl/producto/33323-asus-video-nvidia-geforce-gtx1650-o4gb-dual,pcfactory,1650,269990
-54,  RTX3060TI O8GB ROG STRIX V2 GAMING,$ 791.990,5,https://www.pcfactory.cl/producto/43636-asus-video-nvidia-geforce-rtx3060ti-o8gb-rog-strix-v2-gaming,pcfactory,3060TI,791990
+48,  GT710 SL-2GD5-CSM,$ 84.990,5,https://www.pcfactory.cl/producto/26690-asus-video-nvidia-geforce-gt710-sl-2gd5-csm,pcfactory,OTROS,84990
+49,  RTX3080 10GB V2 TUF GAMING LHR,$ 1.279.990,5,https://www.pcfactory.cl/producto/43632-asus-video-nvidia-geforce-rtx3080-10gb-v2-tuf-gaming-lhr,pcfactory,3080,1279990
+50,ASUS DUAL  RTX 3050 OC EDITION DE 8GB GDDR6,$ 521.664,5,https://www.winpy.cl/venta/tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-edition-de-8gb-gddr6/,winpy,3050,521664
+51,  RTX3060TI O8GB ROG STRIX V2 GAMING,$ 791.990,5,https://www.pcfactory.cl/producto/43636-asus-video-nvidia-geforce-rtx3060ti-o8gb-rog-strix-v2-gaming,pcfactory,3060TI,791990
+52,  RTX3080 O10GB ROG STRIX WHITE V2,$ 1.379.990,5,https://www.pcfactory.cl/producto/45247-asus-video-nvidia-geforce-rtx3080-o10gb-rog-strix-white-v2,pcfactory,3080,1379990
+53,  RTX3060TI 8GB EAGLE OC,$ 699.990,5,https://www.pcfactory.cl/producto/39999-gigabyte-video-nvidia-geforce-rtx3060ti-8gb-eagle-oc,pcfactory,3060TI,699990
+54,  GTX1650 O4GB DUAL ,$ 269.990,5,https://www.pcfactory.cl/producto/33323-asus-video-nvidia-geforce-gtx1650-o4gb-dual,pcfactory,1650,269990
 55,ZOTAC GAMING  RTX 3080 TI TRINITY DE 12GB GDDR6X,$ 1.778.400,6,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3080-ti-trinity-de-12gb-gddr6x/,winpy,3080TI,1778400
 56,EXTERNA GIGABYTE AORUS RTX 3080 GAMING BOX DE 10GB GDDR6X,$ 1.692.064,6,https://www.winpy.cl/venta/tarjeta-de-video-externa-gigabyte-aorus-rtx-3080-gaming-box-de-10gb-gddr6x/,winpy,3080,1692064
 57,MSI  RADEON RX 6900 XT GAMING Z TRIO 16GB GDDR6,$ 2.287.296,7,https://www.winpy.cl/venta/tarjeta-de-video-msi-amd-radeon-rx-6900-xt-gaming-z-trio-16gb-gddr6/,winpy,6900XT,2287296
@@ -65,64 +65,64 @@
 63,  RTX3050 8GB GDDR6 PHOENIX,$ 445.990,9,https://www.pcfactory.cl/producto/45245-asus-video-nvidia-geforce-rtx3050-8gb-gddr6-phoenix,pcfactory,3050,445990
 64,TARJETA DE VÃDEO ZOTAC  RTX 2060 DE 6GB GDDR6,$ 429.856,9,https://www.winpy.cl/venta/tarjeta-de-video-zotac-geforce-rtx-2060-de-6gb-gddr6/,winpy,2060,429856
 65,ASUS TUF GAMING  RTX 3080 TI DE 12GB GDDR6X,$ 1.899.392,9,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-3080-ti-de-12gb-gddr6x/,winpy,3080TI,1899392
-66,  RTX3070TI 8GB FTW3 ULTRA,$ 1.039.990,9,https://www.pcfactory.cl/producto/42811-evga-video-nvidia-geforce-rtx3070ti-8gb-ftw3-ultra,pcfactory,3070TI,1039990
-67,  RTX3060 12GB DUAL ,$ 709.990,9,https://www.pcfactory.cl/producto/43479-palit-video-nvidia-geforce-rtx3060-12gb-dual,pcfactory,3060,709990
-68,  RTX2060 12GB XC GAMING,$ 659.990,9,https://www.pcfactory.cl/producto/45291-evga-video-nvidia-geforce-rtx2060-12gb-xc-gaming,pcfactory,2060,659990
-69,ASUS TUF GAMING  RTX 3080 TI OC EDITION DE 12GB GDDR6X,$ 2.197.920,10,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-3080-ti-oc-edition-de-12gb-gddr6x/,winpy,3080TI,2197920
-70, RADEON PRO WX 3200 4GB GDDR5,$ 249.990,10,https://www.pcfactory.cl/producto/45295-amd-video-amd-radeon-pro-wx-3200-4gb-gddr5,pcfactory,OTROS,249990
-71,  RTX3080 12GB TUF GAMING LHR,$ 1.559.990,10,https://www.pcfactory.cl/producto/45076-asus-video-nvidia-geforce-rtx3080-12gb-tuf-gaming-lhr,pcfactory,3080,1559990
-72, RADEON RX 6800XT 16GB GAMING OC,$ 1.299.990,10,https://www.pcfactory.cl/producto/40515-gigabyte-video-amd-radeon-rx-6800xt-16gb-gaming-oc,pcfactory,6800XT,1299990
-73, RADEON RX 6900XT 16GB GAMING Z TRIO,$ 1.799.990,10,https://www.pcfactory.cl/producto/42020-msi-video-amd-radeon-rx-6900xt-16gb-gaming-z-trio,pcfactory,6900XT,1799990
-74,  GT1030 2G CSM GDDR5 - LOW PROFILE,$ 96.990,10,https://www.pcfactory.cl/producto/26445-asus-video-nvidia-geforce-gt1030-2g-csm-gddr5--low-profile,pcfactory,OTROS,96990
+66,  GT1030 2G CSM GDDR5 - LOW PROFILE,$ 96.990,9,https://www.pcfactory.cl/producto/26445-asus-video-nvidia-geforce-gt1030-2g-csm-gddr5--low-profile,pcfactory,OTROS,96990
+67,  RTX3070TI 8GB FTW3 ULTRA,$ 1.039.990,9,https://www.pcfactory.cl/producto/42811-evga-video-nvidia-geforce-rtx3070ti-8gb-ftw3-ultra,pcfactory,3070TI,1039990
+68,  RTX3060 12GB DUAL ,$ 709.990,9,https://www.pcfactory.cl/producto/43479-palit-video-nvidia-geforce-rtx3060-12gb-dual,pcfactory,3060,709990
+69,  RTX2060 12GB XC GAMING,$ 659.990,9,https://www.pcfactory.cl/producto/45291-evga-video-nvidia-geforce-rtx2060-12gb-xc-gaming,pcfactory,2060,659990
+70,ASUS TUF GAMING  RTX 3080 TI OC EDITION DE 12GB GDDR6X,$ 2.197.920,10,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-3080-ti-oc-edition-de-12gb-gddr6x/,winpy,3080TI,2197920
+71, RADEON PRO WX 3200 4GB GDDR5,$ 249.990,10,https://www.pcfactory.cl/producto/45295-amd-video-amd-radeon-pro-wx-3200-4gb-gddr5,pcfactory,OTROS,249990
+72,  RTX3080 12GB TUF GAMING LHR,$ 1.559.990,10,https://www.pcfactory.cl/producto/45076-asus-video-nvidia-geforce-rtx3080-12gb-tuf-gaming-lhr,pcfactory,3080,1559990
+73, RADEON RX 6800XT 16GB GAMING OC,$ 1.299.990,10,https://www.pcfactory.cl/producto/40515-gigabyte-video-amd-radeon-rx-6800xt-16gb-gaming-oc,pcfactory,6800XT,1299990
+74, RADEON RX 6900XT 16GB GAMING Z TRIO,$ 1.799.990,10,https://www.pcfactory.cl/producto/42020-msi-video-amd-radeon-rx-6900xt-16gb-gaming-z-trio,pcfactory,6900XT,1799990
 75, RADEON RX 6800 O16GB GAMING OC,$ 799.990,10,https://www.pcfactory.cl/producto/45180-gigabyte-video-amd-radeon-rx-6800-o16gb-gaming-oc,pcfactory,6800,799990
 76, GT730K 2GB D3H/LPV1,$ 99.990,11,https://www.pcfactory.cl/producto/42354-msi-video-nvidia-gt730k-2gb-d3h-lpv1,pcfactory,OTROS,99990
 77,  GTX1660TI 6GB 1-CLICK OC,$ 469.990,11,https://www.pcfactory.cl/producto/35241-galax-video-nvidia-geforce-gtx1660ti-6gb-1-click-oc,pcfactory,1660TI,469990
 78, RADEON RX 6600 DUAL 8GB,$ 489.990,11,https://www.pcfactory.cl/producto/43993-asus-video-amd-radeon-rx-6600-dual-8gb,pcfactory,6600,489990
 79,  RTX3060TI DUAL OC V1 8GB,$ 559.990,11,https://www.pcfactory.cl/producto/43478-palit-video-nvidia-geforce-rtx3060ti-dual-oc-v1-8gb,pcfactory,3060TI,559990
 80,  RTX3070 8GB 1-CLICK OC LHR,$ 914.990,12,https://www.pcfactory.cl/producto/44368-galax-video-nvidia-geforce-rtx3070-8gb-1-click-oc-lhr,pcfactory,3070,914990
-81,"MSI RADEON RX 6900 XT GAMING Z TRIO, 16GB GDDR6, PCIE 4.0, DP X 3, HDMI X 1",$2.510.290,13,https://www.spdigital.cl/products/view/82631,spdigital,6900XT,2510290
-82,  RTX3080TI TUF GAMING O12G,$ 1.929.990,13,https://www.pcfactory.cl/producto/42196-asus-video-nvidia-geforce-rtx3080ti-tuf-gaming-o12g,pcfactory,3080TI,1929990
-83,EXTERNA GIGABYTE AORUS RTX 3090 GAMING BOX DE 24GB GDDR6X,$ 2.915.968,13,https://www.winpy.cl/venta/tarjeta-de-video-externa-gigabyte-aorus-rtx-3090-gaming-box-de-24gb-gddr6x/,winpy,3090,2915968
+81,  GTX1660 6GB DUAL,$ 429.990,13,https://www.pcfactory.cl/producto/44817-palit-video-nvidia-geforce-gtx1660-6gb-dual,pcfactory,1660,429990
+82,EXTERNA GIGABYTE AORUS RTX 3090 GAMING BOX DE 24GB GDDR6X,$ 2.915.968,13,https://www.winpy.cl/venta/tarjeta-de-video-externa-gigabyte-aorus-rtx-3090-gaming-box-de-24gb-gddr6x/,winpy,3090,2915968
+83,  RTX3080TI TUF GAMING O12G,$ 1.929.990,13,https://www.pcfactory.cl/producto/42196-asus-video-nvidia-geforce-rtx3080ti-tuf-gaming-o12g,pcfactory,3080TI,1929990
 84,  GTX1050TI 4GT OC,$ 199.990,13,https://www.pcfactory.cl/producto/28293-msi-video-nvidia-geforce-gtx1050ti-4gt-oc,pcfactory,1050TI,199990
-85,  GTX1660 6GB DUAL,$ 429.990,13,https://www.pcfactory.cl/producto/44817-palit-video-nvidia-geforce-gtx1660-6gb-dual,pcfactory,1660,429990
-86,  GTX1660S O6GB TUF,$ 589.990,14,https://www.pcfactory.cl/producto/35863-asus-video-nvidia-geforce-gtx1660s-o6gb-tuf,pcfactory,1660S,589990
-87, RADEON RX 6900 XT 16GB AORUS MASTER,$ 1.299.990,14,https://www.pcfactory.cl/producto/45111-gigabyte-video-amd-radeon-rx-6900-xt-16gb-aorus-master,pcfactory,6900XT,1299990
+85,"MSI RADEON RX 6900 XT GAMING Z TRIO, 16GB GDDR6, PCIE 4.0, DP X 3, HDMI X 1",$2.510.290,13,https://www.spdigital.cl/products/view/82631,spdigital,6900XT,2510290
+86, RADEON RX 6900 XT 16GB AORUS MASTER,$ 1.299.990,14,https://www.pcfactory.cl/producto/45111-gigabyte-video-amd-radeon-rx-6900-xt-16gb-aorus-master,pcfactory,6900XT,1299990
+87,  GTX1660S O6GB TUF,$ 589.990,14,https://www.pcfactory.cl/producto/35863-asus-video-nvidia-geforce-gtx1660s-o6gb-tuf,pcfactory,1660S,589990
 88,  RTX3070TI GAMING PRO 8GB,$ 829.990,14,https://www.pcfactory.cl/producto/43748-palit-video-nvidia-geforce-rtx3070ti-gaming-pro-8gb,pcfactory,3070TI,829990
 89,ASUS TUF GAMING RADEON RX 6500 XT OC EDITION DE 4GB GDDR6,$ 341.088,15,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-radeon-rx-6500-xt-oc-edition-de-4gb-gddr6/,winpy,6500XT,341088
 90,  RTX3080TI 12GB GAMEROCK,$ 1.499.990,15,https://www.pcfactory.cl/producto/43477-palit-video-nvidia-geforce-rtx3080ti-12gb-gamerock,pcfactory,3080TI,1499990
-91,  GTX1660S 6GB VENTUS XS,$ 531.990,16,https://www.pcfactory.cl/producto/45185-msi-video-nvidia-geforce-gtx1660s-6gb-ventus-xs,pcfactory,1660S,531990
+91,EVGA  RTX 3080 12GB FTW3 ULTRA GAMING DE 12GB GDDR6,$ 1.647.072,16,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-3080-12gb-ftw3-ultra-gaming-de-12gb-gddr6/,winpy,3080,1647072
 92,EVGA  RTX 3080 FTW3 ULTRA RGB DE 10GB GDDR6X,$ 1.047.584,16,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-3080-ftw3-ultra-rgb-de-10gb-gddr6x/,winpy,3080,1047584
-93,EVGA  RTX 3080 12GB FTW3 ULTRA GAMING DE 12GB GDDR6,$ 1.647.072,16,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-3080-12gb-ftw3-ultra-gaming-de-12gb-gddr6/,winpy,3080,1647072
-94,  RTX 3050 O8GB DUAL ,$ 559.990,17,https://www.pcfactory.cl/producto/45498-asus-video-nvidia-geforce-rtx-3050-o8gb-dual,pcfactory,3050,559990
+93,  GTX1660S 6GB VENTUS XS,$ 531.990,16,https://www.pcfactory.cl/producto/45185-msi-video-nvidia-geforce-gtx1660s-6gb-ventus-xs,pcfactory,1660S,531990
+94, RADEON RX 6600XT O8GB DUAL,$ 599.990,17,https://www.pcfactory.cl/producto/43643-asus-video-amd-radeon-rx-6600xt-o8gb-dual,pcfactory,6600XT,599990
 95, RADEON PRO WX2100 2GB,$ 169.990,17,https://www.pcfactory.cl/producto/42900-amd-video-amd-radeon-pro-wx2100-2gb,pcfactory,OTROS,169990
-96, RADEON RX 6600XT O8GB DUAL,$ 599.990,17,https://www.pcfactory.cl/producto/43643-asus-video-amd-radeon-rx-6600xt-o8gb-dual,pcfactory,6600XT,599990
+96,  RTX3070 8GB JETSTREAM V1 LHR,$ 799.990,17,https://www.pcfactory.cl/producto/44258-palit-video-nvidia-geforce-rtx3070-8gb-jetstream-v1-lhr,pcfactory,3070,799990
 97,  GTX1650 4GB GP,$ 289.990,17,https://www.pcfactory.cl/producto/43492-palit-video-nvidia-geforce-gtx1650-4gb-gp,pcfactory,1650,289990
-98,  RTX3070 8GB JETSTREAM V1 LHR,$ 799.990,17,https://www.pcfactory.cl/producto/44258-palit-video-nvidia-geforce-rtx3070-8gb-jetstream-v1-lhr,pcfactory,3070,799990
+98,  RTX 3050 O8GB DUAL ,$ 559.990,17,https://www.pcfactory.cl/producto/45498-asus-video-nvidia-geforce-rtx-3050-o8gb-dual,pcfactory,3050,559990
 99,EXTERNA ASUS 2021 ROG XG MOBILE RTX 3070 DE 8GB GDDR6,$ 1.250.656,18,https://www.winpy.cl/venta/tarjeta-de-video-externa-asus-2021-rog-xg-mobile-rtx-3070-de-8gb-gddr6/,winpy,3070,1250656
 100,  RTX3060 O12GB V2 TUF GAMING,$ 679.990,18,https://www.pcfactory.cl/producto/43639-asus-video-nvidia-geforce-rtx3060-o12gb-v2-tuf-gaming,pcfactory,3060,679990
 101,  GTX1650 4GB EX-CLICK OC,$ 269.990,19,https://www.pcfactory.cl/producto/43786-galax-video-nvida-geforce-gtx1650-4gb-ex-click-oc,pcfactory,1650,269990
 102,  RTX3070 O8GB KO V2 LHR,$ 849.990,19,https://www.pcfactory.cl/producto/44917-asus-video-nvidia-geforce-rtx3070-o8gb-ko-v2-lhr,pcfactory,3070,849990
-103,"MSI  RADEON RX 6900 XT GAMING Z TRIO, 16GB GDDR6, 2425MHZ 16GBPS",$1.837.590,20,https://www.spdigital.cl/products/view/82691,spdigital,6900XT,1837590
+103,ZOTAC GAMING  RTX 3070 TI TRINITY DE 8GB GDDR6X,$ 1.099.872,20,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3070-ti-trinity-de-8gb-gddr6x/,winpy,3070TI,1099872
 104,ZOTAC GAMING  RTX 3050 TWIN EDGE DE 8GB GDDR6,$ 429.856,20,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3050-twin-edge-de-8gb-gddr6/,winpy,3050,429856
 105,"ZOTAC  RTX 3050 TWIN EDGE, 8GB, GDDR6, 128BITS, PCI-E 4.0, HDMI",$599.990,20,https://www.spdigital.cl/products/view/83537,spdigital,3050,599990
-106," RADEON ASROCK PHANTOM GAMING RX 550, 2GB, GDDR5, 128-BIT, PCI-E 3.0",$179.990,20,https://www.spdigital.cl/products/view/80886,spdigital,OTROS,179990
-107,BRACKET VERTICAL SHARKOON PCI-E PARA EN ELITE SHARK CA200,$23.990,20,https://www.spdigital.cl/products/view/77081,spdigital,OTROS,23990
-108,BRACKET PARA BITFENIX ALCHEMY 3.0 ARGB COMPATIBLE CON AURA SYNC,$14.990,20,https://www.spdigital.cl/products/view/76568,spdigital,OTROS,14990
-109,"PNY    GTX1650 4GB GDDR6 DUAL FAN PB, 128-BIT, PCI-EXPRESS 3.0 X16",$429.990,20,https://www.spdigital.cl/products/view/77576,spdigital,1650,429990
-110,"ZOTAC  GTX 1660 SUPER AMP, 6GB GDDR6",$589.990,20,https://www.spdigital.cl/products/view/82570,spdigital,1660,589990
-111," ZOTAC  GTX 1650 AMP, 4GB, GDDR6, 128-BIT, HDMI",$379.990,20,https://www.spdigital.cl/products/view/81380,spdigital,1650,379990
-112,EVGA   210 1GB GDDR3 HDMI PCI-E,$29.990,20,https://www.spdigital.cl/products/view/44065,spdigital,OTROS,29990
-113,"ASUS   GT 730, 2GB GDDR5",$90.190,20,https://www.spdigital.cl/products/view/83185,spdigital,OTROS,90190
-114,ZOTAC GAMING  RTX 3070 TI TRINITY DE 8GB GDDR6X,$ 1.099.872,20,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3070-ti-trinity-de-8gb-gddr6x/,winpy,3070TI,1099872
+106,EVGA   210 1GB GDDR3 HDMI PCI-E,$29.990,20,https://www.spdigital.cl/products/view/44065,spdigital,OTROS,29990
+107,BRACKET PARA BITFENIX ALCHEMY 3.0 ARGB COMPATIBLE CON AURA SYNC,$14.990,20,https://www.spdigital.cl/products/view/76568,spdigital,OTROS,14990
+108," RADEON ASROCK PHANTOM GAMING RX 550, 2GB, GDDR5, 128-BIT, PCI-E 3.0",$179.990,20,https://www.spdigital.cl/products/view/80886,spdigital,OTROS,179990
+109,"ZOTAC  GTX 1660 SUPER AMP, 6GB GDDR6",$589.990,20,https://www.spdigital.cl/products/view/82570,spdigital,1660,589990
+110,"PNY    GTX1650 4GB GDDR6 DUAL FAN PB, 128-BIT, PCI-EXPRESS 3.0 X16",$429.990,20,https://www.spdigital.cl/products/view/77576,spdigital,1650,429990
+111,BRACKET VERTICAL SHARKOON PCI-E PARA EN ELITE SHARK CA200,$23.990,20,https://www.spdigital.cl/products/view/77081,spdigital,OTROS,23990
+112,"MSI  RADEON RX 6900 XT GAMING Z TRIO, 16GB GDDR6, 2425MHZ 16GBPS",$1.837.590,20,https://www.spdigital.cl/products/view/82691,spdigital,6900XT,1837590
+113," ZOTAC  GTX 1650 AMP, 4GB, GDDR6, 128-BIT, HDMI",$379.990,20,https://www.spdigital.cl/products/view/81380,spdigital,1650,379990
+114,"ASUS   GT 730, 2GB GDDR5",$90.190,20,https://www.spdigital.cl/products/view/83185,spdigital,OTROS,90190
 115,  RTX3080 10GB TUF GAMING V2 LHR,$ 1.159.990,22,https://www.pcfactory.cl/producto/44695-asus-video-nvidia-geforce-rtx3080-10gb-tuf-gaming-v2-lhr,pcfactory,3080,1159990
 116,  RTX3050 DUAL 8GB ,$ 519.990,24,https://www.pcfactory.cl/producto/44816-palit-video-nvidia-geforce-rtx3050-dual-8gb,pcfactory,3050,519990
-117, RADEON RX 6700XT TUF GAMING O12G,$ 899.990,25,https://www.pcfactory.cl/producto/41329-asus-video-amd-radeon-rx-6700xt-tuf-gaming-o12g,pcfactory,6700XT,899990
+117,ZOTAC GAMING  RTX 2060 TWIN FAN DE 12GB GDDR6,$ 549.632,25,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-2060-twin-fan-de-12gb-gddr6/,winpy,2060,549632
 118,  RTX3060TI 8GB DUAL V1 LHR,$ 589.990,25,https://www.pcfactory.cl/producto/44257-palit-video-nvidia-geforce-rtx3060ti-8gb-dual-v1-lhr,pcfactory,3060TI,589990
-119,ZOTAC GAMING  RTX 2060 TWIN FAN DE 12GB GDDR6,$ 549.632,25,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-2060-twin-fan-de-12gb-gddr6/,winpy,2060,549632
-120,  GTX1660TI 6GB OC,$ 429.990,25,https://www.pcfactory.cl/producto/32555-gigabyte-video-nvidia-geforce-gtx1660ti-6gb-oc,pcfactory,1660TI,429990
-121,ASUS DUAL  RTX 2060 OC EDICIÃN EVO DE 6GB GDDR6,$ 549.632,26,https://www.winpy.cl/venta/tarjeta-de-video-asus-dual-geforce-rtx-2060-oc-edicion-evo-de-6gb-gddr6/,winpy,2060,549632
-122,  GT710 1GB GDDR5,$ 59.990,27,https://www.pcfactory.cl/producto/36075-asus-video-nvidia-geforce-gt710-1gb-gddr5,pcfactory,OTROS,59990
-123,  GTX1650 4GB WINDFORCE D6 V2.0,$ 399.990,27,https://www.pcfactory.cl/producto/39512-gigabyte-video-nvidia-geforce-gtx1650-4gb-windforce-d6-v2-0,pcfactory,1650,399990
+119, RADEON RX 6700XT TUF GAMING O12G,$ 899.990,25,https://www.pcfactory.cl/producto/41329-asus-video-amd-radeon-rx-6700xt-tuf-gaming-o12g,pcfactory,6700XT,899990
+120,ASUS DUAL  RTX 2060 OC EDICIÃN EVO DE 6GB GDDR6,$ 549.632,26,https://www.winpy.cl/venta/tarjeta-de-video-asus-dual-geforce-rtx-2060-oc-edicion-evo-de-6gb-gddr6/,winpy,2060,549632
+121,  GTX1660TI 6GB OC,$ 429.990,26,https://www.pcfactory.cl/producto/32555-gigabyte-video-nvidia-geforce-gtx1660ti-6gb-oc,pcfactory,1660TI,429990
+122,  GTX1650 4GB WINDFORCE D6 V2.0,$ 399.990,27,https://www.pcfactory.cl/producto/39512-gigabyte-video-nvidia-geforce-gtx1650-4gb-windforce-d6-v2-0,pcfactory,1650,399990
+123,  GT710 1GB GDDR5,$ 59.990,27,https://www.pcfactory.cl/producto/36075-asus-video-nvidia-geforce-gt710-1gb-gddr5,pcfactory,OTROS,59990
 124,  RTX3070 8GB GAMING PRO,$ 1.099.990,27,https://www.pcfactory.cl/producto/43749-palit-video-nvidia-geforce-rtx3070-8gb-gaming-pro,pcfactory,3070,1099990
 125, QUADRO T600 4GB GDDR6,$ 229.990,29,https://www.pcfactory.cl/producto/43472-pny-video-nvidia-quadro-t600-4gb-gddr6,pcfactory,OTROS,229990
 126, RADEON RX 6700XT DUAL O12G,$ 889.990,29,https://www.pcfactory.cl/producto/44918-asus-video-amd-radeon-rx-6700xt-dual-o12g,pcfactory,6700XT,889990
@@ -133,23 +133,23 @@
 131,  GTX1660TI 6GB STORMX,$ 399.990,30,https://www.pcfactory.cl/producto/43480-palit-video-nvidia-geforce-gtx1660ti-6gb-stormx,pcfactory,1660TI,399990
 132,GIGABYTE RADEON RX 6900 XT GAMING OC DE 16GB GDDR6,$ 2.167.520,42,https://www.winpy.cl/venta/tarjeta-de-video-gigabyte-radeon-rx-6900-xt-gaming-oc-de-16gb-gddr6/,winpy,6900XT,2167520
 133,ASUS TUF GAMING GTX 1660 TI EVO OC EDITION DE 6 GB GDDR6,$ 412.832,49,https://www.winpy.cl/venta/tarjeta-de-video-asus-tuf-gaming-gtx-1660-ti-evo-oc-edition-de-6-gb-gddr6/,winpy,1660TI,412832
-134, RADEON RX 6500XT O4GB TUF GAMING ,$ 309.990,50,https://www.pcfactory.cl/producto/44916-asus-video-amd-radeon-rx-6500xt-o4gb-tuf-gaming,pcfactory,6500XT,309990
-135, GT730 2GB LOW PROFILE,$ 95.990,50,https://www.pcfactory.cl/producto/43493-palit-video-nvidia-gt730-2gb-low-profile,pcfactory,OTROS,95990
-136, GT730 2GB SL BRK,$ 99.990,50,https://www.pcfactory.cl/producto/44350-asus-video-nvidia-gt730-2gb-sl-brk,pcfactory,OTROS,99990
-137, RADEON RX 6500XT O4GB DUAL ,$ 285.990,50,https://www.pcfactory.cl/producto/45074-asus-video-amd-radeon-rx-6500xt-o4gb-dual,pcfactory,6500XT,285990
-138, QUADRO T400 2GB GDDR6,$ 169.990,50,https://www.pcfactory.cl/producto/43469-pny-video-nvidia-quadro-t400-2gb-gddr6,pcfactory,OTROS,169990
-139,  GTX1050TI 4GB PHOENIX FAN,$ 219.990,50,https://www.pcfactory.cl/producto/24736-asus-video-nvidia-geforce-gtx1050ti-4gb-phoenix-fan,pcfactory,1050TI,219990
-140, RADEON RX 6900XT 16GB AORUS XTREME WATERFORCE,$ 1.699.990,50,https://www.pcfactory.cl/producto/42682-gigabyte-video-amd-radeon-rx-6900xt-16gb-aorus-xtreme-waterforce,pcfactory,6900XT,1699990
-141,  GTX1650 O4GB PHOENIX,$ 235.990,50,https://www.pcfactory.cl/producto/45249-asus-video-nvidia-geforce-gtx1650-o4gb-phoenix,pcfactory,1650,235990
-142,  GTX1650 O4GB PHOENIX D6,$ 349.990,50,https://www.pcfactory.cl/producto/43641-asus-video-nvidia-geforce-gtx1650-o4gb-phoenix-d6,pcfactory,1650,349990
-143,TARJETA DE VÃDEO EVGA  GTX 1660 SUPER SC ULTRA GAMING DE 6GB GDDR6,$ 400.064,69,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-gtx-1660-super-sc-ultra-gaming-de-6gb-gddr6/,winpy,1660,400064
+134, RADEON RX 6900XT 16GB AORUS XTREME WATERFORCE,$ 1.699.990,50,https://www.pcfactory.cl/producto/42682-gigabyte-video-amd-radeon-rx-6900xt-16gb-aorus-xtreme-waterforce,pcfactory,6900XT,1699990
+135,  GTX1050TI 4GB PHOENIX FAN,$ 219.990,50,https://www.pcfactory.cl/producto/24736-asus-video-nvidia-geforce-gtx1050ti-4gb-phoenix-fan,pcfactory,1050TI,219990
+136,  GTX1650 O4GB PHOENIX,$ 235.990,50,https://www.pcfactory.cl/producto/45249-asus-video-nvidia-geforce-gtx1650-o4gb-phoenix,pcfactory,1650,235990
+137, GT730 2GB SL BRK,$ 99.990,50,https://www.pcfactory.cl/producto/44350-asus-video-nvidia-gt730-2gb-sl-brk,pcfactory,OTROS,99990
+138, RADEON RX 6500XT O4GB TUF GAMING ,$ 309.990,50,https://www.pcfactory.cl/producto/44916-asus-video-amd-radeon-rx-6500xt-o4gb-tuf-gaming,pcfactory,6500XT,309990
+139, RADEON RX 6500XT O4GB DUAL ,$ 285.990,50,https://www.pcfactory.cl/producto/45074-asus-video-amd-radeon-rx-6500xt-o4gb-dual,pcfactory,6500XT,285990
+140, GT730 2GB LOW PROFILE,$ 95.990,50,https://www.pcfactory.cl/producto/43493-palit-video-nvidia-gt730-2gb-low-profile,pcfactory,OTROS,95990
+141,  GTX1650 O4GB PHOENIX D6,$ 349.990,50,https://www.pcfactory.cl/producto/43641-asus-video-nvidia-geforce-gtx1650-o4gb-phoenix-d6,pcfactory,1650,349990
+142, QUADRO T400 2GB GDDR6,$ 169.990,50,https://www.pcfactory.cl/producto/43469-pny-video-nvidia-quadro-t400-2gb-gddr6,pcfactory,OTROS,169990
+143,TARJETA DE VÃDEO EVGA  GTX 1660 SUPER SC ULTRA GAMING DE 6GB GDDR6,$ 400.064,67,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-gtx-1660-super-sc-ultra-gaming-de-6gb-gddr6/,winpy,1660,400064
 144,ASUS  GT 730 DE 2GB GDDR5,$ 100.928,99,https://www.winpy.cl/venta/tarjeta-de-video-asus-geforce-gt-730-de-2gb-gddr5/,winpy,OTROS,100928
-145,  GTX1660TI 6GB DUAL ,$ 439.990,100,https://www.pcfactory.cl/producto/43491-palit-video-nvidia-geforce-gtx1660ti-6gb-dual,pcfactory,1660TI,439990
-146,  GTX1650 4GB STORMX,$ 285.990,100,https://www.pcfactory.cl/producto/43750-palit-video-nvidia-geforce-gtx1650-4gb-stormx,pcfactory,1650,285990
-147, MINERÃ­A CMP 30HX D6 6G,$ 499.990,100,https://www.pcfactory.cl/producto/42726-gigabyte-nvidia-mineria-cmp-30hx-d6-6g,pcfactory,OTROS,499990
-148,  RTX2060 WINDFORCE OC 12G,$ 769.490,100,https://www.pcfactory.cl/producto/45009-gigabyte-video-nvidia-geforce-rtx2060-windforce-oc-12g,pcfactory,2060,769490
-149,EXTENSOR CABLE RISER PEC 300 PCI-E X16 ,$ 21.990,100,https://www.pcfactory.cl/producto/35084-deepcool-extensor-cable-riser-pec-300-pci-e-x16,pcfactory,OTROS,21990
-150,ZOTAC GAMING  RTX 3060 TWIN EDGE DE 12GB GDDR6,$ 522.880,153,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3060-twin-edge-de-12gb-gddr6/,winpy,3060,522880
-151,EVGA  RTX 2060 KO ULTRA GAMING DE 6GB GDDR6,$ 415.872,168,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-2060-ko-ultra-gaming-de-6gb-gddr6/,winpy,2060,415872
+145,  RTX2060 WINDFORCE OC 12G,$ 769.490,100,https://www.pcfactory.cl/producto/45009-gigabyte-video-nvidia-geforce-rtx2060-windforce-oc-12g,pcfactory,2060,769490
+146,EXTENSOR CABLE RISER PEC 300 PCI-E X16 ,$ 21.990,100,https://www.pcfactory.cl/producto/35084-deepcool-extensor-cable-riser-pec-300-pci-e-x16,pcfactory,OTROS,21990
+147,  GTX1660TI 6GB DUAL ,$ 439.990,100,https://www.pcfactory.cl/producto/43491-palit-video-nvidia-geforce-gtx1660ti-6gb-dual,pcfactory,1660TI,439990
+148,  GTX1650 4GB STORMX,$ 285.990,100,https://www.pcfactory.cl/producto/43750-palit-video-nvidia-geforce-gtx1650-4gb-stormx,pcfactory,1650,285990
+149, MINERÃ­A CMP 30HX D6 6G,$ 499.990,100,https://www.pcfactory.cl/producto/42726-gigabyte-nvidia-mineria-cmp-30hx-d6-6g,pcfactory,OTROS,499990
+150,ZOTAC GAMING  RTX 3060 TWIN EDGE DE 12GB GDDR6,$ 522.880,154,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3060-twin-edge-de-12gb-gddr6/,winpy,3060,522880
+151,EVGA  RTX 2060 KO ULTRA GAMING DE 6GB GDDR6,$ 415.872,166,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-2060-ko-ultra-gaming-de-6gb-gddr6/,winpy,2060,415872
 152,ZOTAC GAMING  RTX 3060 TI TWIN EDGE LHR DE 8GB GDDR6,$ 724.736,236,https://www.winpy.cl/venta/tarjeta-de-video-zotac-gaming-geforce-rtx-3060-ti-twin-edge-lhr-de-8gb-gddr6/,winpy,3060TI,724736
 153,EVGA  RTX 2060 SC GAMING DE 6GB GDDR6,$ 453.568,306,https://www.winpy.cl/venta/tarjeta-de-video-evga-geforce-rtx-2060-sc-gaming-de-6gb-gddr6/,winpy,2060,453568

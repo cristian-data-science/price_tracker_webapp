@@ -24,7 +24,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-st.title('Price & Stock Tracker')
+st.title('Prices & Stock Tracker')
 st.markdown("""
 Esta app consume los datos de precio y stock de un webscaper automatizado (rastreador de datos) y muestra sus resultados de forma ordenada y con muy poco retardo. En un update futuro se conectará con un bot de telegram para notificar variaciones de precios y alertas personalizadas
 """)
